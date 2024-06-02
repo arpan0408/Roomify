@@ -1,0 +1,388 @@
+html {
+  max-width: 83.4em;
+}
+
+.content {
+  background-color: #fff;
+  border: 2px solid #160f0f;
+
+}
+
+.Card {
+  margin: 25px;
+  display: inline-block;
+  background-color: #b3d7b6;
+}
+
+/* Features Section */
+::root {
+
+
+  --primary-color: #FFFFFF;
+  --secondary-color: #F5F5F5;
+  --accent-color: #FFC107;
+  --background-color: #FFFFFF;
+  --text-color: #212121;
+}
+
+.features {
+  padding: 2rem;
+}
+
+.features-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #200404;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.features-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  width: 30%;
+  background-color: #d3c2c2;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.feature-description {
+  font-size: 1rem;
+  color: #564fba;
+}
+
+/* Guest Section */
+
+.testimonials {
+  padding: 2rem;
+}
+
+.testimonials-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px black;
+}
+
+.testimonials-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  width: 30%;
+  background-color: #d3c2c2;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  color: #09080e;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-author {
+  font-size: 1rem;
+  color: #564fba;
+  font-style: italic;
+}
+
+
+.rooms {
+
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-decoration: 2px solid underline black;
+
+}
+
+
+
+
+/* about section  */
+
+.about-us {
+  background-color: var(--background-color);
+  padding: 2rem;
+}
+
+.about-us-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: whitesmoke;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-us-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-us-text {
+  font-size: 1rem;
+  color: whitesmoke;
+  width: 50%;
+}
+
+.about-us-image {
+  width: 40%;
+  height: auto;
+  border-radius: 5px;
+}
+
+:root {
+  --primary-color: #89b2cb;
+  --secondary-color: hsl(194, 80%, 73%);
+  --accent-color: #66819b;
+  --background-color: #34e2e2;
+  --text-color: whitesmoke;
+}
+
+.album {
+  background-color: var(--background-color);
+  padding: 2rem;
+}
+
+.album-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: whitesmoke;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.album-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.album-card {
+  width: 30%;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.album-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.album-text {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+/* contact section    */
+
+/* Nice theme variables */
+:root {
+
+  --primary-color: rgba(126, 71, 71, 0.482);
+  --secondary-color: rgba(190, 37, 37, 0.8);
+  --accent-color: #0b6cd4;
+  --background-color: rgba(151, 159, 160, 0.8);
+  --text-color: #29100c;
+
+}
+
+.contact-us {
+  background-color: var(--background-color);
+  padding: 2rem;
+}
+
+.contact-us-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-us-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-us-form {
+  width: 50%;
+}
+
+.contact-us-form label {
+  display: block;
+  font-size: 1rem;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.contact-us-form input,
+.contact-us-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.contact-us-btn {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.contact-us-btn:hover {
+  background-color: #0056b3;
+}
+
+.contact-us-info {
+  width: 40%;
+}
+
+.contact-us-text {
+  font-size: 1rem;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+
+
+/* profile Section  */
+
+
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #BA68C8;
+}
+
+.profile-button {
+  background: rgb(99, 39, 120);
+  box-shadow: none;
+  border: none
+}
+
+.profile-button:hover {
+  background: #682773
+}
+
+.profile-button:focus {
+  background: #682773;
+  box-shadow: none
+}
+
+.profile-button:active {
+  background: #682773;
+  box-shadow: none
+}
+
+.back:hover {
+  color: #682773;
+  cursor: pointer
+}
+
+.labels {
+  font-size: 11px
+}
+
+.add-experience:hover {
+  background: #BA68C8;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #BA68C8
+}
+
+.container-profile {
+  width: 70em;
+  height: 38rem;
+  border-radius: 50px;
+  margin: 0 0 0 100px;
+  background: rgb(201, 203, 173);
+}
+
+/* Footer */
+.nav-item {
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 0;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* Add Rooms */
+.add {
+  width: 70em;
+  border-radius: 10px;
+  margin: 0 0 2rem 8rem;
+}
+
+.add_container {
+  width: 60em;
+  padding: 3rem 0 3rem 10rem;
+}
+
+.add_container h4 {
+  color: white;
+  font-size: 35px;
+  text-shadow: 2px 2px black;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.add_btn {
+  width: 5em;
+  color: white;
+  margin-right: 10rem;
+  margin-left: 10rem;
+  background-color: blueviolet;
+}
+
+.add_select {
+  padding: 20px;
+}
+
+.add_select h3 {
+  font-size: 25px;
+  font-weight:500;
+}
+
+.add_container label {
+  font-size: 18px;
+  margin-left: 20px;
+}

@@ -89,7 +89,7 @@ function Login() {
                         <label><input type="checkbox" required />I agree to the terms & conditions</label>
                     </div>
 
-                    <button type="submit">Singup</button>
+                    <button type="submit">Signup</button>
 
                     <div className="register-link">
                         <p>Already have an account? <a href="#" onClick={loginLink}>Login</a></p>
